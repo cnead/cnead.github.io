@@ -125,22 +125,22 @@ hr{
 }
 
 #comp_mar{
-    background: url("../imagens/comps/mar_lw.jpg") fixed center;
+    background: url("mar_lw.jpg") fixed center;
     background-size: cover;
 }
 
 #comp_sertao{
-    background: url("../imagens/comps/sertao_lw.jpg") fixed center;
+    background: url("sertao_lw.jpg") fixed center;
     background-size: cover;
 }
 
 #comp_energia{
-    background: url("../imagens/comps/energia_lw.jpg") fixed center;
+    background: url("energia_lw.jpg") fixed center;
     background-size: cover;
 }
 
 #comp_circuito{
-    background: url("../imagens/comps/circuito_lw.jpg") fixed center;
+    background: url("circuito_lw.jpg") fixed center;
     background-size: cover;
     height: 20vh;
 }
@@ -425,7 +425,7 @@ main{
 }
 
 .avatar_membro{
-    background-image: url("../imagens/programacao/placeholder.jpg");
+    background-image: url("placeholder.jpg");
     background-color: white;
     transition: all .3s ease-in-out;
     background-position: center center;
@@ -713,12 +713,12 @@ footer{
 
 
 .banner_submissoes{
-    background-image: url("../imagens/banners/ban_sub2.png");
+    background-image: url("ban_sub2.png");
 
 }
 
 .banner_minicurso{
-    background-image: url("../imagens/banners/b_mini2.png");
+    background-image: url("b_mini2.png");
 
 }
 
@@ -736,11 +736,11 @@ footer{
 
 
 .bg_01{
-    background-image: url("../imagens/carrossel/bg_sertao.jpg");
+    background-image: url("bg_sertao.jpg");
 }
 
 .bg_02{
-    background-image: url("../imagens/carrossel/bg_energia.jpg");
+    background-image: url("bg_energia.jpg");
 }
 
 .container_carrossel{
@@ -793,20 +793,20 @@ footer{
 }
 
 .item_carrossel[data-posicao-carrossel="0"]{
-    background-image: url("../imagens/carrossel/obrigado.png");
+    background-image: url("obrigado.png");
 }
 .item_carrossel[data-posicao-carrossel="1"]{
-    background-image: url("../imagens/carrossel/poster_h_azul.png");
+    background-image: url("poster_h_azul.png");
 }
 
 .item_carrossel[data-posicao-carrossel="2"]{
-    background-image: url("../imagens/carrossel/organizadores.png");
+    background-image: url("organizadores.png");
 }
 .item_carrossel[data-posicao-carrossel="3"]{
-    background-image: url("../imagens/carrossel/ead.png");
+    background-image: url("ead.png");
 }
 .item_carrossel[data-posicao-carrossel="4"]{
-    background-image: url("../imagens/carrossel/carr_res_min.png");
+    background-image: url("carr_res_min.png");
 }
 
 .posicao_0{
@@ -934,7 +934,7 @@ footer{
         width: 120px;
         height: 132px;
         transform: scale(0.5);
-        background: url("../imagens/interface/top_branco.png");
+        background: url("top_branco.png");
         transition: transform .4s ease-in-out;
         cursor: pointer;
         margin-left: auto;
