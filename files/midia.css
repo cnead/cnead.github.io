@@ -1,0 +1,41 @@
+
+summary{
+    text-align: center;
+}
+
+.blocos_midia details{
+
+    box-sizing: border-box;
+    padding: 15px;
+    font-family: var(--fonte-subtitulos);
+    color: snow;
+    text-decoration: none;
+    display: block;
+    border-radius: 10px;
+    background-color: #3C3D3D;
+    transition:all .5s ease-in-out;
+    margin: 20px;
+}
+
+
+a{
+    color: #E4BA01;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #ffffff;
+
+}
+
+details img{
+    width: 100%;
+
+}
+
+
+.blocos_midia details[open]{
+    background-color: #0e1d54;
+    text-align: center;
+}
+
