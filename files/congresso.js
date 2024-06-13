@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded",
         var modo_reverso;
         let item_inicial = document.getElementsByClassName("item_carrossel")[0];
 
-        window.setInterval(mover_carrossel, 8000);
+        window.setInterval(mover_carrossel, 5000);
 
         function mover_carrossel() {
             let itens_carrossel = document.getElementsByClassName("item_carrossel");
