@@ -62,7 +62,7 @@ document.addEventListener("DOMContentLoaded",
         let realizador = document.getElementsByClassName("logo_if_realizador");
         for (let i of realizador) {
             i.addEventListener("mousedown", () => {
-                window.location.href = "https://www.ifpb.edu.br/noticias/2023/07/inclusao-e-qualidade-na-educacao-a-distancia-e-tema-do-4o-congresso-nordestino-de-ead";
+                window.location.href = "https://portal.ifpe.edu.br/ead/";
             })
         }
 
@@ -76,7 +76,6 @@ document.addEventListener("DOMContentLoaded",
 
             switch (texto_alt) {
                 case "Instituto Federal Baiano":
-                    //window.location.href = "https://ifbaiano.edu.br/portal/ensino/"
                     window.open("https://ifbaiano.edu.br/portal/ensino/", "_blank");
                     break;
                 case "Instituto Federal da Bahia":
@@ -86,7 +85,7 @@ document.addEventListener("DOMContentLoaded",
                     window.open("https://www.ifal.edu.br/", "_blank");
                     break;
                 case "Instituto Federal de Pernambuco":
-                    window.open("https://www.ifpe.edu.br/campus/ead/noticias/inclusao-e-qualidade-na-educacao-a-distancia-e-tema-do-4o-congresso-nordestino-de-ead", "_blank");
+                    window.open("https://portal.ifpe.edu.br/ead/", "_blank");
                     break;
                 case "Instituto Federal do Ceará":
                     window.open("https://ifce.edu.br/", "_blank");
