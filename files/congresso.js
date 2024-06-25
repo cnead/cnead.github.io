@@ -102,6 +102,9 @@ document.addEventListener("DOMContentLoaded",
                 case "Instituto Federal do Sertão Pernambucano":
                     window.open("https://www.ifsertao-pe.edu.br/index.php/a-instituicao/noticias-em-destaque/15741-evento-regional", "_blank");
                     break;
+                case "Instituto Federal de Sergipe":
+                    window.open("https://www.ifs.edu.br/reitoria/pro-reitorias/proen/ead", "_blank");
+                    break;                    
                 default:
                     window.location.href = "#inicio";
             }
