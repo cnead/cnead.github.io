@@ -85,22 +85,22 @@ document.addEventListener("DOMContentLoaded",
                     window.open("https://www.ifal.edu.br/", "_blank");
                     break;
                 case "Instituto Federal de Pernambuco":
-                    window.open("https://portal.ifpe.edu.br/ead/", "_blank");
+                    window.open("https://portal.ifpe.edu.br/ead/noticias/ifpe-sediara-5o-congresso-nordestino-de-educacao-a-distancia/", "_blank");
                     break;
                 case "Instituto Federal do Ceará":
                     window.open("https://ifce.edu.br/", "_blank");
                     break;
                 case "Instituto Federal do Maranhão":
-                    window.open("https://portal.ifma.edu.br/2023/07/20/4o-congresso-nordestino-de-educacao-a-distancia-ocorrera-na-ifpb/", "_blank");
+                    window.open("https://portal.ifma.edu.br/", "_blank");
                     break;
                 case "Instituto Federal do Piauí":
-                    window.open("https://www.ifpi.edu.br/noticias/4o-congresso-nordestino-de-ead-sera-realizado-em-joao-pessoa", "_blank");
+                    window.open("https://www.ifpi.edu.br/", "_blank");
                     break;
                 case "Instituto Federal do Rio Grande do Norte":
                     window.open("https://portal.ifrn.edu.br/", "_blank");
                     break;
                 case "Instituto Federal do Sertão Pernambucano":
-                    window.open("https://www.ifsertao-pe.edu.br/index.php/a-instituicao/noticias-em-destaque/15741-evento-regional", "_blank");
+                    window.open("https://www.ifsertao-pe.edu.br/", "_blank");
                     break;
                 case "Instituto Federal de Sergipe":
                     window.open("https://www.ifs.edu.br/reitoria/pro-reitorias/proen/ead", "_blank");
@@ -205,19 +205,20 @@ document.addEventListener("DOMContentLoaded",
 
             let id_atividade = botao_compartilhar_whatsapp.parentElement.parentElement.id;
 
-            let parceiros = "%0D%0AA organização do Congresso é uma parceria do *Instituto Federal da Paraíba*" + "%0D%0A" +
-                "🤝Instituto Federal Baiano" + "%0D%0A" +
-                "🤝Instituto Federal da Bahia" + "%0D%0A" +
+            let parceiros = "%0D%0AA organização do Congresso é uma parceria do *Instituto Federal de Pernambuco*" + "%0D%0A" +
                 "🤝Instituto Federal de Alagoas" + "%0D%0A" +
-                "🤝Instituto Federal de Pernambuco" + "%0D%0A" +
+                "🤝Instituto Federal da Bahia" + "%0D%0A" +
+                "🤝Instituto Federal Baiano" + "%0D%0A" +
                 "🤝Instituto Federal do Ceará" + "%0D%0A" +
                 "🤝Instituto Federal do Maranhão" + "%0D%0A" +
+                "🤝Instituto Federal da Paraiba" + "%0D%0A" +
                 "🤝Instituto Federal do Piauí" + "%0D%0A" +
                 "🤝Instituto Federal do Rio Grande do Norte" + "%0D%0A" +
-                "🤝Instituto Federal do Sertão Pernambucano" + "%0D%0A";
+                "🤝Instituto Federal do Sertão Pernambucano" + "%0D%0A" +
+                "🤝Instituto Federal de Sergipe" + "%0D%0A";
 
 
-            botao_compartilhar_whatsapp.parentElement.setAttribute("href", `whatsapp://send?text=*4ºCongresso Nordestino de Educação a Distância* %0D%0A%0D%0A_${categora_atividade_evento}_%0D%0A*"${titulo_atividade_evento}"* %0D%0A${texto_nomes_membros}%0D%0A%0D%0AData: ${data_atividade_evento}%0D%0AHorário: ${horario_atividade_evento}%0D%0ALocal: ${ambiente_atividade} %0D%0A%0D%0A${parceiros}%0D%0A%0D%0A💻 *Acesse a programação completa em:* %0D%0Ahttps://eventos.ead.ifpb.edu.br/4congressonordestino/#programacao`)
+            botao_compartilhar_whatsapp.parentElement.setAttribute("href", `whatsapp://send?text=*5ºCongresso Nordestino de Educação a Distância* %0D%0A%0D%0A_${categora_atividade_evento}_%0D%0A*"${titulo_atividade_evento}"* %0D%0A${texto_nomes_membros}%0D%0A%0D%0AData: ${data_atividade_evento}%0D%0AHorário: ${horario_atividade_evento}%0D%0ALocal: ${ambiente_atividade} %0D%0A%0D%0A${parceiros}%0D%0A%0D%0A💻 *Acesse a programação completa em:* %0D%0Ahttps://www.5cnead.ead.ifpe.edu.br/#programacao`)
         }
 
         async function compartilhar(event) {
@@ -246,22 +247,23 @@ document.addEventListener("DOMContentLoaded",
 
             //console.log(`*${categora_atividade_evento}:*  ${titulo_atividade_evento} \n  *${data_atividade_evento} | ${horario_atividade_evento}*`);
 
-            let parceiros = "\n\n" + "A organização do Congresso é uma parceria do *Instituto Federal da Paraíba*" + "\n" +
-                "🤝Instituto Federal Baiano" + "\n" +
-                "🤝Instituto Federal da Bahia" + "\n" +
+            let parceiros = "\n\n" + "A organização do Congresso é uma parceria do *Instituto Federal de Pernambuco*" + "\n" +
                 "🤝Instituto Federal de Alagoas" + "\n" +
-                "🤝Instituto Federal de Pernambuco" + "\n" +
+                "🤝Instituto Federal da Bahia" + "\n" +
+                "🤝Instituto Federal Baiano" + "\n" +
                 "🤝Instituto Federal do Ceará" + "\n" +
                 "🤝Instituto Federal do Maranhão" + "\n" +
+                "🤝Instituto Federal da Paraíba" + "\n" +                
                 "🤝Instituto Federal do Piauí" + "\n" +
                 "🤝Instituto Federal do Rio Grande do Norte" + "\n" +
-                "🤝Instituto Federal do Sertão Pernambucano" + "\n";
+                "🤝Instituto Federal do Sertão Pernambucano" + "\n" +
+                "🤝Instituto Federal de Sergipe";
 
 
             const shareData = {
-                title: "4º Congresso Nordestino de Educação a Distância",
+                title: "5º Congresso Nordestino de Educação a Distância",
                 text: `*${categora_atividade_evento}:*\n _"${titulo_atividade_evento}"_\n\n ${texto_nomes_membros}\n\nData: ${data_atividade_evento}\nHorário: ${horario_atividade_evento}*${parceiros}\nLocal: ${ambiente_atividade}`,
-                url: `https://eventos.ead.ifpb.edu.br/4congressonordestino/#${id_atividade}`,
+                url: `https://www.5cnead.ead.ifpe.edu.br/#${id_atividade}`,
             };
 
 
