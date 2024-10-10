@@ -870,7 +870,6 @@ footer{
 
 }
 
-
 #menu nav a[href="#apresentacao"]:hover{
     background-color: #9f1971;
 }
@@ -879,7 +878,6 @@ footer{
     background-color: #E4BA01;
     /*color: #3C3D3D;*/
 }
-
 
 #menu nav a[href="#programacao"]:hover{
     background-color: #22398D;
@@ -891,7 +889,7 @@ footer{
 }
 
 #menu nav a[href="#hoteis"]:hover{
-    background-color: ##9022b5;
+    background-color: #9022b5;
 } 
 
 #menu nav a[href="#restaurantes"]:hover{
